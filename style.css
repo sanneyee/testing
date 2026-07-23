@@ -1,0 +1,160 @@
+:root {
+  --leica-black: #0b0b0b;
+  --leica-white: #ffffff;
+  --leica-red: #e20613;
+}
+
+/* BODY */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: var(--leica-black);
+  color: var(--leica-white);
+}
+
+/* NAV */
+nav {
+  background-color: var(--leica-red);
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: black;
+}
+
+/* CONTAINER */
+.container {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+/* SECTION */
+.Leica{
+  display: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.Leica.camera2{
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* PRODUCT */
+.camera {
+  display: inline-block;
+  width: 350px;
+  margin: 50px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.camera:hover {
+  transform: scale(1.05);
+}
+
+.camera img {
+  width: 100%;
+}
+
+/* LINKS*/
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* FOOTER */
+footer {
+  background-color: var(--leica-red);
+  text-align: center;
+  padding: 10px;
+}
+
+/* TYPOGRAPHY */
+h1 {
+  font-size: 32px;
+  font-weight: 300;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+p {
+  color: #cccccc;
+  line-height: 1.6;
+}
+
+/* NAV */
+nav {
+  background-color: black;
+  padding: 15px;
+  border-bottom: 1px solid #222;
+}
+
+nav ul li a {
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+nav ul li a:hover {
+  color: var(--leica-red);
+}
+
+/* PRODUCT CARD */
+.camera {
+  background-color: #a60c0c;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.camera img {
+  border-radius: 5px;
+}
+
+/* BUTTON STYLE */
+.button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: 1px solid rgb(247, 240, 240);
+  color: white;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.button:hover {
+  background-color: var(--leica-red);
+  border-color: var(--leica-red);
+}
+
+
+section {
+  gap: 20px;
+}
+
+body {
+  letter-spacing: 0.5px;
+}
+
+.container {
+  padding-top: 20px;
+}
